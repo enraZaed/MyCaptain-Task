@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int a, b;
+	a=1998;
+	b=2021;
+	printf("Numbers before swapping-\n a=%d, b=%d\n\n", a, b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("Numbers after swapping-\n a=%d, b=%d\n", a, b);
+	return 0;
+}
